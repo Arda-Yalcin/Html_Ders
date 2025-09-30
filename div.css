@@ -1,0 +1,30 @@
+#header {
+  background-color: blue;
+  height: 100px;
+}
+
+#Colums25 {
+  background-color: red;
+  height: 100px;
+  width: 25%;
+  float: left;
+}
+#Column50 {
+  background-color: yellow;
+  height: 100px;
+  width: 50%;
+  float: left;
+}
+#column25 {
+  background-color: green;
+  height: 100px;
+  width: 25%;
+  float: left;
+}
+#clear {
+  clear: both;
+}
+#footer {
+  background-color: black;
+  height: 100px;
+}
