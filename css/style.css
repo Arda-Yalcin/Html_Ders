@@ -1,0 +1,16 @@
+.yazi{
+    color:black;
+    font-size:large;
+}
+.bosluk{
+    padding: 30px;
+
+}
+#sayfa{
+    background-color: lightgrey;
+    width: 1200px;
+    margin-top: 10px;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
