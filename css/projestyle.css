@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: seagreen;
+}
+#header{
+    text-align: center;
+    background-color: aquamarine;
+    height: 50px;
+    font-size: 40px;
+}
+#menü{
+    text-align: center;
+    background-color: rgb(73, 174, 207);
+    height: 40px;
+    font-size: 30px;
+}
+#sayfa{
+    background-color: rgb(198, 253, 0);
+    width: 1000px;
+    margin-top: 10px;
+    border: 2px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+.resim_kutusu{
+    width: 25%;
+    padding: 5px;
+    float: left;
+}
+.yazi_kutusu{
+    width: 75%;
+    padding: 5px;
+    float: left;
+    margin-top: 20px;
+    text-align: center;
+}
+.resim_kutu{
+    width: 25%;
+    padding: 5px;
+    float: right;
+  
+}
+.yazi_kutu{
+    width: 75%;
+    padding: 10px;
+    margin-top: 20px;
+    float: right;
+    text-align: center;
+}
+.row{
+    width: 100%;
+}
+.row::after{
+    display: block;
+    content: "";
+    clear: both;
+}
+.kutu2{
+    width: 50%;
+    padding: 20px;
+    float: right;
+    border: 1px solid black;
+    box-shadow: 3px 3px 5px black;
+}
