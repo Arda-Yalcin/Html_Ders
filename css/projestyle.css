@@ -26,29 +26,16 @@ body{
     margin-left: auto;
     margin-right: auto;
 }
-.resim_kutusu{
+.kutu30{
     width: 25%;
     padding: 5px;
     float: left;
 }
-.yazi_kutusu{
+.kutu70{
     width: 75%;
     padding: 5px;
     float: left;
     margin-top: 20px;
-    text-align: center;
-}
-.resim_kutu{
-    width: 25%;
-    padding: 5px;
-    float: right;
-  
-}
-.yazi_kutu{
-    width: 75%;
-    padding: 10px;
-    margin-top: 20px;
-    float: right;
     text-align: center;
 }
 .row{
