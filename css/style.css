@@ -1,9 +1,12 @@
+*{
+    box-sizing:border-box;
+}
 .yazi{
     color:black;
     font-size:large;
 }
 .bosluk{
-    padding: 30px;
+    padding: 20px;
 
 }
 #sayfa{
@@ -13,4 +16,22 @@
     border: 1px solid black;
     margin-left: auto;
     margin-right: auto;
+}
+#resim_kutusu{
+    width:25%;
+    padding:5px;
+    float:left;
+}
+#yazi_kutusu{
+    width:75%;
+    padding:5px;
+    float:left;
+}
+.row{
+    width: 100;
+}
+.row::after{
+    display: block;
+    content: "";
+    clear: both;
 }
