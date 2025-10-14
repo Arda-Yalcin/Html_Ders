@@ -57,11 +57,48 @@ nav ul li a:hover {
   height: 100%;
 }
 .kutu3 {
-  width: 33.33%;
-  float: left;
-  text-align: center;
+  display: flex;   
+  align-items: flex-start;
   font-size: 20px;
+  text-align: center;
+  padding: 10px;
+}
+.kutu3 p {
+  width: 65%;                 
 }
 .resim {
-  float: right;
+  display: flex;
+  flex-direction: column;     
+  width: 35%;
+  margin-right: 0;            
+  align-items: flex-end;      
+}
+.resim img {
+  width: 100%;
+  height: auto;
+}
+.kutu4, .kutu5 {
+  width: 35%;     
+}
+.kutu4 img, .kutu5 img {
+  width: 100%;
+  height: auto;
+} 
+#kutu1{
+  float: left;
+ 
+}
+.alt-kutular {
+  display: flex;              /* kutuları yan yana dizer */
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.kutu1, .kutu2 {
+  background-color: #00ffaa;     /* beyaz arka plan */
+  width: 48%;                 /* yan yana iki kutu */
+  border: 2px solid #000;     /* çerçeve */
+  padding: 15px;
+  font-size: 18px;
+  text-align: left;
 }
